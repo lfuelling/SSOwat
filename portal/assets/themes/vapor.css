@@ -55,11 +55,11 @@ body {
     }
 }
 body {
-    -webkit-animation: vaporbg 8s linear infinite;
-    -moz-animation: vaporbg 8s linear infinite;
-    -ms-animation: vaporbg 8s linear infinite;
-    -o-animation: vaporbg 8s linear infinite;
-    animation: vaporbg 8s linear infinite;
+    -webkit-animation: vaporbg 8s linear infinite !important;
+    -moz-animation: vaporbg 8s linear infinite !important;
+    -ms-animation: vaporbg 8s linear infinite !important;
+    -o-animation: vaporbg 8s linear infinite !important;
+    animation: vaporbg 8s linear infinite !important;
 }
 
 .messages.danger { background: #c0392b80; }
