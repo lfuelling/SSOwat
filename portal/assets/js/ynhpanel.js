@@ -238,7 +238,7 @@ domReady(function(){
   var overlay = document.createElement('iframe');
   overlay.src = "/yunohost/sso/info.html";
   overlay.setAttribute("id","ynh-overlay");
-  overlay.setAttribute("style","opacity:0"); // make sure the overlay is invisible already when loading it
+  overlay.setAttribute("style","display: none;"); // make sure the overlay is invisible already when loading it
 
   document.body.insertBefore(overlay, null);
 
