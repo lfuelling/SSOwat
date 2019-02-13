@@ -86,6 +86,9 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.classList.add('overlay');
       let userContainer = document.querySelector('a.user-container');
       userContainer.classList.replace('user-container-info', 'user-container-edit');
+      userContainer.setAttribute('href', userContainer
+          .getAttribute('href')
+          .replace('edit.html', ''));
       userContainer.addEventListener('click', function(e) {
           e.preventDefault();
           e.stopPropagation();
