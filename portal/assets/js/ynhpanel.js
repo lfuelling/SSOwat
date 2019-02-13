@@ -259,9 +259,7 @@ domReady(function(){
     portalStyle.setAttribute("type", "text/css");
     portalStyle.setAttribute("href", '/ynhpanel.css');
     document.getElementsByTagName("head")[0].insertBefore(portalStyle, null);
-
     
-
     // Bind YNH Button
     window.addEvent(portal, 'click', function(e){
       // Prevent default click
