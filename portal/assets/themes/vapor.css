@@ -5,53 +5,53 @@
 body {
     min-height: 100vh;
     background: rgb(205, 118, 255) !important;
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(205, 118, 255)), color-stop(100%, rgb(93, 150, 168))) !important;
-    background: -webkit-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-    background: -moz-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-    background: -ms-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-    background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-    background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(205, 118, 255)), color-stop(100%, rgb(108, 172, 191))) !important;
+    background: -webkit-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+    background: -moz-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+    background: -ms-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+    background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+    background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C82BFF', endColorstr='#0C76A8', GradientType=1) !important;
 }
 
 @-webkit-keyframes vaporbg {
     0% {
-        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(205, 118, 255)), color-stop(100%, rgb(93, 150, 168))) !important;
-        background: -webkit-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(205, 118, 255)), color-stop(100%, rgb(108, 172, 191))) !important;
+        background: -webkit-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
     }
     50% {
-        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgb(205, 118, 255)), color-stop(100%, rgb(93, 150, 168))) !important;
-        background: -webkit-linear-gradient(90deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -o-linear-gradient(90deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: linear-gradient(90deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(25%, rgb(205, 118, 255)), color-stop(75%, rgb(108, 172, 191))) !important;
+        background: -webkit-linear-gradient(90deg, rgb(205, 118, 255) 25%, rgb(108, 172, 191) 75%) !important;
+        background: -o-linear-gradient(90deg, rgb(205, 118, 255) 25%, rgb(108, 172, 191) 75%) !important;
+        background: linear-gradient(90deg, rgb(205, 118, 255) 25%, rgb(108, 172, 191) 75%) !important;
     }
     100% {
-        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(205, 118, 255)), color-stop(100%, rgb(93, 150, 168))) !important;
-        background: -webkit-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgb(205, 118, 255)), color-stop(100%, rgb(108, 172, 191))) !important;
+        background: -webkit-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
     }
 }
 @keyframes vaporbg {
     0% {
-        background: -moz-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -ms-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
+        background: -moz-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: -ms-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
     }
     50% {
-        background: -moz-linear-gradient(90deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -ms-linear-gradient(90deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -o-linear-gradient(90deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: linear-gradient(90deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
+        background: -moz-linear-gradient(90deg, rgb(205, 118, 255) 25%, rgb(108, 172, 191) 75%) !important;
+        background: -ms-linear-gradient(90deg, rgb(205, 118, 255) 25%, rgb(108, 172, 191) 75%) !important;
+        background: -o-linear-gradient(90deg, rgb(205, 118, 255) 25%, rgb(108, 172, 191) 75%) !important;
+        background: linear-gradient(90deg, rgb(205, 118, 255) 25%, rgb(108, 172, 191) 75%) !important;
     }
     100% {
-        background: -moz-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -ms-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
-        background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(93, 150, 168) 100%) !important;
+        background: -moz-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: -ms-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: -o-linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
+        background: linear-gradient(45deg, rgb(205, 118, 255) 0%, rgb(108, 172, 191) 100%) !important;
     }
 }
 body {
