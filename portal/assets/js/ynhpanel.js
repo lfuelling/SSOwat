@@ -238,7 +238,7 @@ domReady(function(){
   var overlay = document.createElement('iframe');
   overlay.src = "/yunohost/sso/info.html";
   overlay.setAttribute("id","ynh-overlay");
-  //overlay.setAttribute("style","visibility: hidden;"); // make sure the overlay is invisible already when loading it
+  overlay.setAttribute("style","visibility: hidden;"); // make sure the overlay is invisible already when loading it
 
   document.body.insertBefore(overlay, null);
 
@@ -259,6 +259,8 @@ domReady(function(){
     portalStyle.setAttribute("type", "text/css");
     portalStyle.setAttribute("href", '/ynhpanel.css');
     document.getElementsByTagName("head")[0].insertBefore(portalStyle, null);
+
+    overlay.setAttribute("style",""); // remove inline styles after css is injected
 
     // Bind YNH Button
     window.addEvent(portal, 'click', function(e){
