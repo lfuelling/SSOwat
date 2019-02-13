@@ -260,7 +260,7 @@ domReady(function(){
     portalStyle.setAttribute("href", '/ynhpanel.css');
     document.getElementsByTagName("head")[0].insertBefore(portalStyle, null);
 
-    overlay.setAttribute("style",""); // remove inline styles after css is injected
+    
 
     // Bind YNH Button
     window.addEvent(portal, 'click', function(e){
