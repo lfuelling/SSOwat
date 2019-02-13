@@ -79,12 +79,24 @@ body {/*overflow-y: scroll;*/}
 
 /*FadeIn*/
 @-webkit-keyframes fadeIn {
-  0% {visibility: hidden;}
-  100% {visibility: visible;}
+  0% {
+    visibility: hidden;
+    opacity:0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 @keyframes fadeIn {
-  0% {visibility: hidden;}
-  100% {visibility: visible;}
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 .ynh-fadeIn {
@@ -106,12 +118,24 @@ body {/*overflow-y: scroll;*/}
 
 /*FadeOut*/
 @-webkit-keyframes fadeOut {
-  0% {visibility: visible;}
-  100% {visibility: hidden;}
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 @keyframes fadeOut {
-  0% {visibility: visible;}
-  100% {visibility: hidden;}
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 .ynh-fadeOut {
   -webkit-animation-name: fadeOut;
